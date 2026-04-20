@@ -19,7 +19,7 @@ cd 'dosyayolu'  : istenilen dizine gider.
 touch   : dosya oluşturmaya yarar.
 ls      : bulunduğunuz dizindeki dosyaları gösterir
 git init    : konumlandığınız klasöre git versiyon kontrol sistemini kurar.
-git add <dosya adı> : git tarafından kontrol edilmesini yani versiyonlanmasını isdeiğimiz dosyaları staging area'ya ekler.
+git add <dosya adı> : git tarafından kontrol edilmesini yani versiyonlanmasını istediğimiz dosyaları staging area'ya ekler.
 
 git add .   : tüm dosyaları staging area'ya ekler. Yani tüm dosyalar versiyonlanmak üzere takibe alınır.
 git status  : son durumu gösterir.
@@ -31,7 +31,7 @@ git add index.html                  --staging
 git commit -m "Header Eklendi"      --commitle
 
 git status  : son değişiklikleri kontrol eder.
-
+git log: tüm commitleri gösterir.
 Hazırladığımız local repomuzu github hesabımıza yükleyelim.
 
 --github hesabımızı açtık
@@ -39,3 +39,17 @@ Hazırladığımız local repomuzu github hesabımıza yükleyelim.
 --repo adresimizi aldık. (https://github.com/canermollaoglu/YMYP10FirstRepo.git)
 --git remote add origin https://github.com/canermollaoglu/YMYP10FirstRepo.git
 --git push -u origin master
+
+
+VS CODE Üzerinden:
+
+githuba gönderme:
+--dosyada değişiklik
+--commit (local de versiyonlamak)
+--push (github göndermiş olursun)
+
+githubtan alma:
+--fetch (değişiklikleri izlemek)
+--pull (remote ta yapılan tüm değişiklikleri indir)
+
+
